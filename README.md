@@ -85,4 +85,5 @@ beaker image create -n break-evaluator-YYYY-MM-DD break-evaluator:latest
 
 
 ## Evaluation Metircs
-To learn more about the evaluation metrics used for [Break](https://allenai.github.io/Break/), please refer to the paper ["Break It Down: A Question Understanding Benchmark" (Wolfson et al., TACL 2020)](https://arxiv.org/abs/2001.11770).
+To learn more about the evaluation metrics used for [Break](https://allenai.github.io/Break/), please refer to the paper ["Break It Down: A Question Understanding Benchmark" (Wolfson et al., TACL 2020)](https://arxiv.org/abs/2001.11770).  
+The *"Normalized Exact Match"* metric, is a newly introduced evaluation metric for QDMR that will be included in future work. It compares two QDMRs by normalizing their respective graphs: further decomposing steps; ordering chains of "filter" operations; lemmatizing step noun phrases; etc. 
