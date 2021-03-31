@@ -7,7 +7,7 @@ networkx==2.4
 neuralcoref==4.0
 overrides==2.8.0
 pandas==0.25.3
-lxml==4.5.0
+lxml==4.6.3
 progressbar==2.5
 scipy==1.4.1
 spacy==2.1.9
