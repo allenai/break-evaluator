@@ -9,7 +9,7 @@ overrides==2.8.0
 pandas==0.25.3
 lxml==4.5.0
 progressbar==2.5
-scipy==1.4.1
+scipy==1.10.0
 spacy==2.1.9
 
 
